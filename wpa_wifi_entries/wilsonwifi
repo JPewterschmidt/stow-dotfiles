@@ -1,5 +1,4 @@
 network={
 	ssid="wilsonS21"
-	#psk="basb5322"
 	psk=153fb5b21d1e12921ed4c30ae72257c5775f8956209e1d236280a955b52f7113
 }
