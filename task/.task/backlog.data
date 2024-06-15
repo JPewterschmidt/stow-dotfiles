@@ -1,0 +1,17 @@
+{"description":"picking a supwervisor","entry":"20240531T021947Z","modified":"20240531T021947Z","project":"NUGE","status":"pending","uuid":"9020962a-c075-4c4b-9470-2a6bfe498276"}
+{"description":"serve the bike","entry":"20240531T022020Z","modified":"20240531T022020Z","project":"daily","status":"pending","uuid":"957877e9-534a-4447-b741-4d99ee62aead"}
+{"description":"picking a supwervisor","due":"20240606T160000Z","entry":"20240531T021947Z","modified":"20240601T151833Z","project":"NUGE","status":"pending","uuid":"9020962a-c075-4c4b-9470-2a6bfe498276"}
+{"description":"print identity of CET6 writing exam","entry":"20240601T220632Z","modified":"20240601T220632Z","status":"pending","uuid":"7d0c67d9-6e58-44ab-a68e-7d3042df3704"}
+{"description":"print identity of CET6 writing exam","due":"20240607T160000Z","entry":"20240601T220632Z","modified":"20240601T221217Z","status":"pending","uuid":"7d0c67d9-6e58-44ab-a68e-7d3042df3704"}
+{"description":"sent Mr.Li new attachements","entry":"20240603T191158Z","modified":"20240603T191158Z","status":"pending","uuid":"c8ccabba-13a9-47ab-bc56-b4c6bb949ed0"}
+{"description":"sent Mr.Li new attachements","end":"20240604T141022Z","entry":"20240603T191158Z","modified":"20240604T141022Z","status":"completed","uuid":"c8ccabba-13a9-47ab-bc56-b4c6bb949ed0"}
+{"description":"serve the bike","end":"20240604T141027Z","entry":"20240531T022020Z","modified":"20240604T141027Z","project":"daily","status":"completed","uuid":"957877e9-534a-4447-b741-4d99ee62aead"}
+{"description":"async generator","entry":"20240606T160944Z","modified":"20240606T160944Z","project":"koios","status":"pending","uuid":"7798b095-71c7-45f3-848c-c6dd753a8b68"}
+{"description":"async generator","end":"20240607T143805Z","entry":"20240606T160944Z","modified":"20240607T143805Z","project":"koios","status":"completed","uuid":"7798b095-71c7-45f3-848c-c6dd753a8b68"}
+{"description":"print identity of CET6 writing exam","due":"20240607T160000Z","end":"20240608T204020Z","entry":"20240601T220632Z","modified":"20240608T204020Z","status":"completed","uuid":"7d0c67d9-6e58-44ab-a68e-7d3042df3704"}
+{"description":"send Mam.Zhao newest files","due":"20240623T160000Z","entry":"20240611T190416Z","modified":"20240611T190416Z","status":"pending","uuid":"e7448910-e889-4aaf-bd6f-978fab396c8f"}
+{"description":"send Mam.Zhao newest files","due":"20240611T160000Z","entry":"20240611T190416Z","modified":"20240611T190445Z","status":"pending","uuid":"e7448910-e889-4aaf-bd6f-978fab396c8f"}
+{"description":"send Mam.Zhao newest files","due":"20240611T160000Z","entry":"20240611T190416Z","modified":"20240611T190519Z","start":"20240611T190519Z","status":"pending","uuid":"e7448910-e889-4aaf-bd6f-978fab396c8f"}
+{"description":"try to run andriod on the system","entry":"20240611T201937Z","modified":"20240611T201937Z","project":"sys","status":"pending","uuid":"8e33087f-1142-4034-b1aa-cdce98c2643f"}
+{"description":"learn fontconfig","entry":"20240611T202044Z","modified":"20240611T202044Z","project":"sys","status":"pending","uuid":"dfc5c764-3658-46f6-8ec3-ec76f1c81065"}
+{"description":"send Mam.Zhao newest files","due":"20240611T160000Z","end":"20240612T062749Z","entry":"20240611T190416Z","modified":"20240612T062749Z","status":"completed","uuid":"e7448910-e889-4aaf-bd6f-978fab396c8f"}

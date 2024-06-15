@@ -1,0 +1,60 @@
+time 1717121987
+new [description:"picking a supwervisor" entry:"1717121987" modified:"1717121987" project:"NUGE" status:"pending" uuid:"9020962a-c075-4c4b-9470-2a6bfe498276"]
+---
+time 1717122020
+new [description:"serve the bike" entry:"1717122020" modified:"1717122020" project:"daily" status:"pending" uuid:"957877e9-534a-4447-b741-4d99ee62aead"]
+---
+time 1717255113
+old [description:"picking a supwervisor" entry:"1717121987" modified:"1717121987" project:"NUGE" status:"pending" uuid:"9020962a-c075-4c4b-9470-2a6bfe498276"]
+new [description:"picking a supwervisor" due:"1717689600" entry:"1717121987" modified:"1717255113" project:"NUGE" status:"pending" uuid:"9020962a-c075-4c4b-9470-2a6bfe498276"]
+---
+time 1717279592
+new [description:"print identity of CET6 writing exam" entry:"1717279592" modified:"1717279592" status:"pending" uuid:"7d0c67d9-6e58-44ab-a68e-7d3042df3704"]
+---
+time 1717279937
+old [description:"print identity of CET6 writing exam" entry:"1717279592" modified:"1717279592" status:"pending" uuid:"7d0c67d9-6e58-44ab-a68e-7d3042df3704"]
+new [description:"print identity of CET6 writing exam" due:"1717776000" entry:"1717279592" modified:"1717279937" status:"pending" uuid:"7d0c67d9-6e58-44ab-a68e-7d3042df3704"]
+---
+time 1717441918
+new [description:"sent Mr.Li new attachements" entry:"1717441918" modified:"1717441918" status:"pending" uuid:"c8ccabba-13a9-47ab-bc56-b4c6bb949ed0"]
+---
+time 1717510222
+old [description:"sent Mr.Li new attachements" entry:"1717441918" modified:"1717441918" status:"pending" uuid:"c8ccabba-13a9-47ab-bc56-b4c6bb949ed0"]
+new [description:"sent Mr.Li new attachements" end:"1717510222" entry:"1717441918" modified:"1717510222" status:"completed" uuid:"c8ccabba-13a9-47ab-bc56-b4c6bb949ed0"]
+---
+time 1717510227
+old [description:"serve the bike" entry:"1717122020" modified:"1717122020" project:"daily" status:"pending" uuid:"957877e9-534a-4447-b741-4d99ee62aead"]
+new [description:"serve the bike" end:"1717510227" entry:"1717122020" modified:"1717510227" project:"daily" status:"completed" uuid:"957877e9-534a-4447-b741-4d99ee62aead"]
+---
+time 1717690184
+new [description:"async generator" entry:"1717690184" modified:"1717690184" project:"koios" status:"pending" uuid:"7798b095-71c7-45f3-848c-c6dd753a8b68"]
+---
+time 1717771085
+old [description:"async generator" entry:"1717690184" modified:"1717690184" project:"koios" status:"pending" uuid:"7798b095-71c7-45f3-848c-c6dd753a8b68"]
+new [description:"async generator" end:"1717771085" entry:"1717690184" modified:"1717771085" project:"koios" status:"completed" uuid:"7798b095-71c7-45f3-848c-c6dd753a8b68"]
+---
+time 1717879220
+old [description:"print identity of CET6 writing exam" due:"1717776000" entry:"1717279592" modified:"1717279937" status:"pending" uuid:"7d0c67d9-6e58-44ab-a68e-7d3042df3704"]
+new [description:"print identity of CET6 writing exam" due:"1717776000" end:"1717879220" entry:"1717279592" modified:"1717879220" status:"completed" uuid:"7d0c67d9-6e58-44ab-a68e-7d3042df3704"]
+---
+time 1718132656
+new [description:"send Mam.Zhao newest files" due:"1719158400" entry:"1718132656" modified:"1718132656" status:"pending" uuid:"e7448910-e889-4aaf-bd6f-978fab396c8f"]
+---
+time 1718132685
+old [description:"send Mam.Zhao newest files" due:"1719158400" entry:"1718132656" modified:"1718132656" status:"pending" uuid:"e7448910-e889-4aaf-bd6f-978fab396c8f"]
+new [description:"send Mam.Zhao newest files" due:"1718121600" entry:"1718132656" modified:"1718132685" status:"pending" uuid:"e7448910-e889-4aaf-bd6f-978fab396c8f"]
+---
+time 1718132719
+old [description:"send Mam.Zhao newest files" due:"1718121600" entry:"1718132656" modified:"1718132685" status:"pending" uuid:"e7448910-e889-4aaf-bd6f-978fab396c8f"]
+new [description:"send Mam.Zhao newest files" due:"1718121600" entry:"1718132656" modified:"1718132719" start:"1718132719" status:"pending" uuid:"e7448910-e889-4aaf-bd6f-978fab396c8f"]
+---
+time 1718137177
+new [description:"try to run andriod on the system" entry:"1718137177" modified:"1718137177" project:"sys" status:"pending" uuid:"8e33087f-1142-4034-b1aa-cdce98c2643f"]
+---
+time 1718137244
+new [description:"learn fontconfig" entry:"1718137244" modified:"1718137244" project:"sys" status:"pending" uuid:"dfc5c764-3658-46f6-8ec3-ec76f1c81065"]
+---
+time 1718173669
+old [description:"send Mam.Zhao newest files" due:"1718121600" entry:"1718132656" modified:"1718132719" start:"1718132719" status:"pending" uuid:"e7448910-e889-4aaf-bd6f-978fab396c8f"]
+new [description:"send Mam.Zhao newest files" due:"1718121600" end:"1718173669" entry:"1718132656" modified:"1718173669" status:"completed" uuid:"e7448910-e889-4aaf-bd6f-978fab396c8f"]
+---
