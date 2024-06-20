@@ -4,6 +4,7 @@ end
 
 function fish_greeting
     echo 'For the Soviet Motherland.'
+    uname -somr
     task
 end
 

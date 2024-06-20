@@ -6,7 +6,7 @@ import = [
 size = 13
 
 [font.normal]
-#family = "CaskaydiaCoveNerdFont"
 family = "CaskaydiaCoveNerdFont"
+#family = "DejaVuSansMono"
 style = "Regular"
 
