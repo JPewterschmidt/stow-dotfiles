@@ -3,7 +3,7 @@ import = [
 ]
 
 [font]
-size = 13
+size = 11
 
 [font.normal]
 family = "CaskaydiaCoveNerdFont"
