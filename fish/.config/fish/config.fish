@@ -37,5 +37,6 @@ abbr -a ffq 'cd ~/code/cpp/FrenzySQL'
 abbr -a ffs 'cd ~/code/cpp/FrenzyKVOnWire'
 abbr -a td 'cd ~/code/cpp/toolpex'
 abbr -a lc 'cd ~/code/cpp/leetcode'
+abbr -a wmconfig.d 'cd /etc/portage/savedconfig/x11-wm'
 
 set -x MANPAGER "less"
