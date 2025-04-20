@@ -3,6 +3,7 @@
 --vim.cmd "color habamax"
 --vim.cmd "color blue"
 vim.cmd "color desert"
+--vim.cmd "color koehler"
 --vim.cmd "color evening"
 --vim.cmd "color onedark"
 --vim.cmd "color NeoSolarized"

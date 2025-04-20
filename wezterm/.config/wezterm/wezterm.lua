@@ -3,31 +3,41 @@ local act = wezterm.action
 
 return {
     window_background_opacity = 1,
-    initial_rows = 44,
-    initial_cols = 80,
+    initial_rows = 50,
+    initial_cols = 90,
     font = wezterm.font_with_fallback {
-        --'LXGW WenKai Mono',
-        --'DejaVuSansMono Nerd Font Mono',
-        --'Lucida Console',
-        --'Terminus',
-        --'IBM Plex Mono',
-        --'Comic Mono',
-        --'CodeNewRoman Nerd Font Mono',
-        --'CaskaydiaCove Nerd Font',
-        'CascadiaCode',
-        --'Consolas',
-        --'FreeMono',
-        --'Hack',
-        --'FiraCode Nerd Font',
-        --'Monaco Nerd Font',
+        { 
+            family = 
+            --'LXGW WenKai Mono',
+            --'DejaVuSansMono Nerd Font Mono',
+            --'DejaVu Sans Mono',
+            --'Lucida Console',
+            'Terminus',
+            --'IBM Plex Mono',
+            --'Comic Mono',
+            --'CodeNewRoman Nerd Font Mono',
+            --'CaskaydiaCove Nerd Font',
+            --'CascadiaCode',
+            --'Consolas',
+            --'FreeMono',
+            --'Hack',
+            --'FiraCode Nerd Font',
+            --'Monaco Nerd Font',
+            
+            --weight = 'Regular',
+            weight = 'Bold',
+        },
         --
-        --'Source Han Serif CN',
+        'Source Han Serif CN',
         --'Source Han Sans CN',
-        'LXGW WenKai Mono',
+        --'LXGW WenKai Mono',
+        --'wqy-bitmapfont',
     },
-    font_size = 13,
-    freetype_load_flags = "FORCE_AUTOHINT",
-    line_height = 0.8,
+    font_size = 14,
+    --font_size = 30,
+    --freetype_load_flags = "FORCE_AUTOHINT",
+    --freetype_load_flags = "DEFAULT",
+    line_height = 0.85,
     --color_scheme = "Morada (Gogh)",
     --color_scheme = 'Solarized (dark) (terminal.sexy)',
     --color_scheme = 'Solarized (light) (terminal.sexy)',
@@ -69,9 +79,31 @@ return {
             action = act.PasteFrom 'Clipboard'
         },
         {
-            key = '"',
-            mods = 'CTRL|SHIFT|ALT',
-            action = act.SplitHorizontal { domain = 'CurrentPaneDomain' },
+            key = 'F',
+            mods = 'CTRL|SHIFT',
+            action = act.Search { CaseSensitiveString="" }
+        },
+    },
+    key_tables = { 
+        search_mode = {
+            { key = 'Enter',    mods = 'NONE', action = act.CopyMode 'NextMatch' },
+            { key = 'Escape',   mods = 'NONE', action = act.CopyMode 'Close' },
+            { key = 'n',        mods = 'CTRL', action = act.CopyMode 'NextMatch' },
+            { key = 'p',        mods = 'CTRL', action = act.CopyMode 'PriorMatch' },
+            { key = 'r',        mods = 'CTRL', action = act.CopyMode 'CycleMatchType' },
+            { key = 'u',        mods = 'CTRL', action = act.CopyMode 'ClearPattern' },
+            {
+                key = 'PageUp',
+                mods = 'NONE',
+                action = act.CopyMode 'PriorMatchPage',
+            },
+            {
+                key = 'PageDown',
+                mods = 'NONE',
+                action = act.CopyMode 'NextMatchPage',
+            },
+            { key = 'UpArrow', mods = 'NONE', action = act.CopyMode 'PriorMatch' },
+            { key = 'DownArrow', mods = 'NONE', action = act.CopyMode 'NextMatch' },
         },
     },
     window_padding = {
@@ -80,6 +112,7 @@ return {
         top = 0,
         bottom = 0
     },
-    enable_wayland = true
+    scrollback_lines = 5000, 
+    default_mux_server_domain = "local",
+    enable_wayland = true 
 }
-

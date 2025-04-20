@@ -2,7 +2,7 @@
 # /home/wilson/.nvidia-settings-rc
 #
 # Configuration file for nvidia-settings - the NVIDIA Settings utility
-# Generated on Sat Jun  8 21:28:05 2024
+# Generated on Sun Jan 12 20:59:17 2025
 #
 
 # ConfigProperties:
@@ -12,6 +12,8 @@ DisplayStatusBar = Yes
 SliderTextEntries = Yes
 IncludeDisplayNameInConfigFile = No
 UpdateRulesOnProfileNameChange = Yes
+Timer = Thermal_Monitor_(GPU_0),Yes,1000
+Timer = Memory_Used_(GPU_0),Yes,3000
 
 # Attributes:
 

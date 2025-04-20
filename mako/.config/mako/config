@@ -3,14 +3,14 @@ layer=overlay
 background-color=#2e3440
 width=400
 height=200
-border-size=2
-border-color=#6e56af
+border-size=1
+border-color=#005577
 border-radius=0
 icons=0
 max-icon-size=64
 default-timeout=5000
 ignore-timeout=1
-font=LXGWWenKai 20
+font=LXGWWenKai 15
 
 [urgency=low]
 border-color=#cccccc

@@ -30,6 +30,10 @@ vim.opt.scrolloff = 5                           -- is one of my fav
 vim.opt.sidescrolloff = 8
 vim.opt.nuw = 1
 vim.opt.cursorcolumn = true
+vim.opt.showtabline = 0
+vim.opt.guicursor = "n-v-c:hor10,i:block,r-cr:ver25,o:ver50"
+
+--vim.opt.gp='rg -nH'
 
 vim.opt.shortmess:append "c"
 
